@@ -1,1 +1,28 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+head {
+    background-color: #24352B;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #DDE5D8;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* All main sections */
+section {
+    padding: 60px 40px;
+}
 

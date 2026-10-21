@@ -48,6 +48,43 @@ section {
     text-align: center;
 }
 
+/* Meal plan table */
+#plan-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#plan-table thead{
+    background-color: #245C3A;
+    color: white;
+}
+
+#plan-table th,
+#plan-table td {
+    border: 1px solid #D8CDE5;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Day names */
+#meal-plan tbody th {
+    background-color: #EEE7F6;
+    color: var(--text);
+    text-align: left;
+}
+
+/* Empty meal slots */
+#meal-plan td {
+    height: 70px;
+    background-color: white;
+}
+
+/* Subtle hover effect */
+#meal-plan tbody td:hover {
+    background-color: #F4EFFB;
+}
+
 /* Main action button */
 button {
     background-color: var(--purple);
